@@ -1,0 +1,83 @@
+/*Grid*/
+
+.col-1 {
+    width: 8.333%;
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 24.99%;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.665%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.331%;
+}
+
+.col-8 {
+    width: calc(8.333% * 8);
+    /*66.664%*/
+}
+
+.col-9 {
+    width: calc(8.333% * 9);
+    /*74.997%;*/
+}
+
+.col-10 {
+    width: calc(8.333% * 10);
+    /*83.33%;*/
+}
+
+.col-11 {
+    width: calc(8.333% * 11);
+    /*91.663%;*/
+}
+
+.col-12 {
+    width: calc(8.333% * 12);
+    /*100%*/
+}
+
+.login {
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 200px;
+}
+#borda{
+    border: 1px solid red;
+    border-radius: 30px;
+}
+#barra{
+    border: 1px solid red;
+
+}
+
+#center{
+    text-align: center;
+}
+#esquerda{
+    text-align: left;
+}
+
+#direita{
+    text-align: right;
+}

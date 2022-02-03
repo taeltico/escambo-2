@@ -1,0 +1,16 @@
+.gradiente{
+    background-color: linear-gradient(rgb(81, 236, 49), rgb(207, 245, 169));
+}
+a {
+
+    color: #555;
+
+}
+
+
+
+.nolink {
+    text-decoration: none;
+    color: black;
+
+}
