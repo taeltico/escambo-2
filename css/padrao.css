@@ -62,22 +62,24 @@
     margin-right: 450px;
     margin-bottom: 200px;
 }
-#borda{
+
+#borda {
     border: 1px solid red;
     border-radius: 30px;
 }
-#barra{
-    border: 1px solid red;
 
+#barra {
+    border: 1px solid red;
 }
 
-#center{
+#center {
     text-align: center;
 }
-#esquerda{
+
+#esquerda {
     text-align: left;
 }
 
-#direita{
+#direita {
     text-align: right;
 }

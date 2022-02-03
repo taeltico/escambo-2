@@ -1,94 +1,91 @@
-
-header{
+header {
     background-color: transparent;
-    background-position:n;
+    background-position: n;
     background-size: cover;
-    background-position-y:top;
-    text-align:center;
-} 
+    background-position-y: top;
+    text-align: center;
+}
 
-body{
-    
+body {
     background-image: linear-gradient(rgb(41, 247, 0), rgb(238, 241, 234));
     font-family: serif Verdana, Geneva, Tahoma, sans-serif;
-    
 }
-section{
+
+section {
     background-color: transparent;
     height: 100%;
     min-height: 250px;
 }
 
-.table{
+.table {
     text-align: center;
 }
-#propaganda1{
+
+#propaganda1 {
     background-size: cover;
     background-position: center;
 }
-#demonstracao1{
+
+#demonstracao1 {
     background-position: center;
 }
-#propaganda2{
+
+#propaganda2 {
     height: 20%;
     background-size: cover;
     background-position: center;
 }
 
-#propaganda2 div{
+#propaganda2 div {
     float: left;
     width: 33%;
     text-align: center;
-
 }
 
 #eletronicos {
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     text-align: center;
 }
-#eletronicos div{
+
+#eletronicos div {
     float: left;
     width: 20%;
 }
 
-
-#propaganda1 div{
+#propaganda1 div {
     float: left;
     width: 20%;
 }
 
-#propaganda1 div img{
+#propaganda1 div img {
     width: 100%;
     padding: 50px;
     margin-top: 30px;
 }
 
-nav{
+nav {
     background-color: rgb(166, 255, 0);
 }
 
-
-
-nav ul li{
-        color: rgb(252, 8, 8);
-
+nav ul li {
+    color: rgb(252, 8, 8);
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: rgb(17, 17, 17) !important;
-   
-
-}
-nav ul li a:hover{
-    background-color:rgb(255, 4, 4);
 }
 
-#rodapé{
+nav ul li a:hover {
+    background-color: rgb(255, 4, 4);
+}
+
+#rodapé {
     text-align: center;
 }
 
-.nav-link a, .navbar-toggler-icon{
+.nav-link a,
+.navbar-toggler-icon {
     color: #222 !important;
 }
