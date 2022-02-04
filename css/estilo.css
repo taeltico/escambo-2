@@ -31,14 +31,14 @@ section {
 }
 
 #propaganda2 {
-    height: 20%;
+    /* height: 20%; */
     background-size: cover;
     background-position: center;
 }
 
 #propaganda2 div {
-    float: left;
-    width: 33%;
+    /* float: left; */
+    /* width: 33%; */
     text-align: center;
 }
 
@@ -49,13 +49,13 @@ section {
 }
 
 #eletronicos div {
-    float: left;
-    width: 20%;
+    /* float: left; */
+    /* width: 20%; */
 }
 
 #propaganda1 div {
-    float: left;
-    width: 20%;
+    /* float: left; */
+    /* width: 20%; */
 }
 
 #propaganda1 div img {
@@ -90,10 +90,16 @@ nav ul li a:hover {
     color: #222 !important;
 }
 
-#myCarousel{
-    
+#myCarousel {}
+
+.carousel-inner {}
+
+.icone {
+    height: 100%;
+    max-height: 30px;
 }
 
-.carousel-inner{
-
+.borda {
+    border: 1px solid red;
+    border-radius: 30px;
 }
