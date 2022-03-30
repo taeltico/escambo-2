@@ -103,3 +103,51 @@ nav ul li a:hover {
     border: 1px solid red;
     border-radius: 30px;
 }
+
+*,
+button,
+.btn,
+input {
+	font-family: 'Domine';
+}
+
+input[type: reset] {
+	color: white;
+}
+
+/* Arrumar navbar */
+
+#image {
+	margin-top: .5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#ul {
+	margin-top: -0.2em;
+	margin-left: 1em;
+}
+
+#usuario {
+	margin-top: -0.4em;
+	margin-left: 1em;
+}
+
+#botao {
+	margin-left: -4em;
+}
+
+nav {
+	padding-top: .5rem;
+	margin-bottom: 3rem;
+}
+
+/* CSS Mobile*/
+
+@media screen and (max-width: 640px) {
+	body,
+	table,
+	fieldset {
+		max-width: 640px;
+	}
+}
