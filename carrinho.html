@@ -7,8 +7,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/padrao.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/cores.css">
 
@@ -64,52 +62,43 @@
 					<fieldset style="border: 1px solid rgb(252, 5, 5); padding: 1em">
 						<div class="col s10 l12">
 
-							<!-- PRODUTOS -->
+							
 							<table class="responsive-table center">
 								<tbody id="carrinho">
 									<tr class="center" id="produto01">
 										<td><img width="100px" src="imagens do site/PRODUTOS/NOTEBOOK.jpeg"></td>
 										<td>Computador<br>R$500,00</td>
-										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(1)" class="material-icons green-text" style="cursor: pointer;"> Adicionar </i></td>
 										<td>
 											<p id="quantidade1">0</p>
 										</td>
-										<!-- REMOVER DO CARRINHO -->
 										<td><i onclick="removerItem(1)" class="material-icons red-text" style="cursor: pointer;"> Remover </i></td>
 										<td>
 											Total<br>R$<span id="total1">00,00</span>
 										</td>
-										<!-- REMOVER PRODUTO DA LISTA -->
 										<td><i onclick="removerProduto(1)" class="material-icons blue-text text-darken-1" style="cursor: pointer">Deletar</i></td>
 									</tr>
 									<tr id="produto2" id="produto2">
 										<td><img width="100px" src="imagens do site/PRODUTOS/ALEXA.jpeg"></td>
 										<td>ALEXA<br>R$150,00</td>
-										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(2)" class="material-icons green-text" style="cursor: pointer;"> Adicionar</i></td>
 										<td>
 											<p id="quantidade2">0</p>
 										</td>
-										<!-- REMOVER DO CARRINHO -->
 										<td><i onclick="removerItem(2)" class="material-icons red-text" style="cursor: pointer;"> Remover</i></td>
 										<td>
 											Total<br>R$<span id="total2">00,00</span>
 										</td>
-										<!-- REMOVER PRODUTO DA LISTA -->
 										<td><i onclick="removerProduto(2)" class="material-icons blue-text text-darken-1" style="cursor: pointer">Deletar</i></td>
 									</tr>
 									<tr id="produto3" id="produto3">
 										<td><img width="100px" src="imagens do site/PRODUTOS/RETIFICA.jpeg"></td>
 										<td>retifica<br>86,00</td>
-										<!-- ADICIONAR AO CARRINHO -->
 										<td><i onclick="adicionarItem(3)" class="material-icons green-text" style="cursor: pointer;">Adicionar</i></td>
 										<td>
 											<p id="quantidade3">0</p>
 										</td>
-										<!-- REMOVER DO CARRINHO -->
 										<td><i onclick="removerItem(3)" class="material-icons red-text" style="cursor: pointer;">Remover</i></td>
-										<!-- REMOVER PRODUTO DA LISTA -->
 										<td>Total<br>R$<span id="total3">00,00</span></td>
 										<td><i onclick="removerProduto(3)" class="material-icons blue-text text-darken-1" style="cursor: pointer">Deletar</i></td>
 									</tr>
@@ -117,13 +106,13 @@
 							</table>
 							<br>
 						</div>
-						<!-- VALOR TOTAL DOS ITENS ADICIONADOS AO CARRINHO -->
+						>
 						<div class="s12 l6 offset-l6">
 							<h2 class="blue-text text-darken-1 flow-text">Valor Total da Compra: R$<span id="valorTotalCompra">00,00</span></h2>
 						</div>
 					</fieldset>
 					<br>
-					<!-- FINALIZA A COMPRA E RESETA O CARRINHO -->
+					
 					<div class="col s12 l4 offset-l4">
 						<button class="btn waves-light waves-effect red white-text" onclick="finalizarCompra()">FINALIZAR COMPRA</button>
 					</div>

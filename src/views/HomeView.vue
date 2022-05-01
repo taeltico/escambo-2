@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-</html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Escambo</title>
-
-    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
-
-    <!--link rel="stylesheet" type="text/css" href="css/padrao.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="stylesheet" type="text/css" href="css/cores.css">
-
-</head>
-
-<body id="home">
-
+<template>
+  <main id="home">
+    
     <header>
         <div class="row">
             <div class="col-12 col-md-10">
@@ -217,7 +197,7 @@
 
     <section id="demonstracao2">
     </section>
-    <section class="container bg-white">
+    <section id="contatoMap" class="container bg-white">
         <div class="row">
             <div class="col-md-6 col-12">
                 <h2 class="text-center text-uppercase">Inscreva-se e Receba<br>nossas promoções!</h2>
@@ -238,35 +218,217 @@
                         </div>
                     </div>
                 </form>
-               
+                <div class="row text-center pt-2">
+                    <div class="col-6">
+                        <a href="https://www.instagram.com/bololandmx/" class="nolink">
+                            <i class="bi bi-instagram icon"></i>
+                            <b class="fontIcon"> @bololand</b>
                         </a>
                     </div>
-                       
-            <div class="col-md-6 col-6">
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14716.77281025682!2d-43.45802162836748!3d-22.75821022419336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967aa7af1c927%3A0x3b605d45b924ac99!2sCentro%2C%20Nova%20Igua%C3%A7u%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1651426561516!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-6">
+                        <a href="https://api.whatsapp.com/send?l=pt-BR&phone=5521981766143&text=Oi" class="nolink">
+                            <i class="bi bi-whatsapp icon"></i>
+                        </a>
+                        <a href="tel:+55 21 5555-55555" class="nolink">
+                            <!-- <i class="bi bi-whatsapp icon"></i> -->
+                            <b class="fontIcon"> (21)5555-55555</b>
+                        </a>
+                    </div>
+                </div>
+           
+            <div class="col-md-6 col-12">
+            </div>https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2584.1478118994096!2d-46.59717141063949!3d-23.65675093718646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1643415486843!5m2!1spt-BR!2sbr
+
+                <iframe src="" width="99%" height="250" style="border:0;"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
                 <div class="text-center">
-                    <b>Venha nos visitar!<br> Avenida Getulio de Moura, 000, Nova Iguaçu-RJ</b>
+                    <b>Venha nos visitar ou peça que entragamos!<br> Avenida Presidente Vargas, 000, Rio de Janeiro -RJ</b>
                 </div>
             </div>
         </div>
     </section>
-    <section id="areaSocial" class="text-center">
+    <section id="areaSocial">
         <div>
-        <h3><Contate-nos></Contate-nos></h3>
-            <a href="https://www.instagram.com/taeltico/?hl=pt/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-            <a href = "mailto:contato.rafaelwanderley@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/rafael-wanderley-55a10838/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-                <a href="https://api.whatsapp.com/send?phone=5521974935875" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
-                        <a href="https://www.facebook.com/rafaelwanderleyvitor.sa" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>   
-            <a href="" target="_blank"><img src="https://img.shields.io/badge/-discord%23E4405F?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
-    </div>
-    
-    Todos direitos reservados
+            <img src="imagens do site/redes socias/facebook.png" class="icone">
+        </div>
     </section>
+
+    <div id="center" class="col-12">
+        Todos direitos reservados
+    </div>
+
    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
-    <script src="lib/js/bootstrap.min.js"></script>
 
-</body>
+  </main>
+
+ 
+</template>
+
+
+<script>
+// @ is an alias to /src -- "@" é um atalhos para a pasta principal do projetos "/src"
+import HeaderPage from "@/components/HeaderPage.vue";
+import NavbarPage from "@/components/NavbarPage.vue";
+
+export default {
+  //name: "PrincipalPage", //Podemos Apagar por que vamos usar o nome do arquivo.
+  components: {
+    HeaderPage,
+    NavbarPage,
+  },
+};
+</script>
+
+
+<style scope>
+/* 
+Fonte: https://fonts.google.com/specimenTab?standard-styles#about
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#propaganda2,
+#propaganda3,
+#propaganda4 {
+  padding: 0;
+  background-image: url(@/assets/img/ESCAMBO.png);
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+}
+
+/* Corpo */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  /*16px*/
+  background-color: #a0affb;
+}
+
+/* Areas */
+
+section {
+  height: 100%;
+  min-height: 250px;
+  padding: 80px 0;
+}
+
+.slides {
+  min-height: 500px;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.logo img {
+  max-height: 200px;
+}
+
+.produtos {
+  border-radius: 5px;
+  border: solid 1px #bbb;
+}
+
+.produtos input,
+.produtos button {
+  border-radius: 5px;
+  border: solid 1px #bbb;
+  padding: 5px;
+}
+
+.vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.border-circle {
+  border-radius: 25px;
+}
+.imgSocial {
+  padding: 30px;
+}
+
+.conteudoCentro {
+  height: 100%;
+  min-height: 250px;
+}
+
+.respansive {
+  width: 100%;
+}
+
+.listLink {
+  text-decoration: none;
+  list-style: none;
+}
+
+.btnVoltar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 2em;
+  /* border: solid 3px;
+    border-radius: 50px; */
+}
+
+.btnVoltar a {
+  text-decoration: none;
+}
+
+a {
+  color: #555;
+}
+
+.nolink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  /*32px*/
+  font-size: 2em;
+}
+
+.fontIcon {
+  font-size: 1.2em;
+}
+
+.copyRight {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+footer h4 {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* Media */
+
+@media screen and (max-width: 768px) {
+  .retirarElemento {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .imgSocial {
+    padding: 20px;
+  }
+}
+
+</style>

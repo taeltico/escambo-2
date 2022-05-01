@@ -1,16 +1,14 @@
-// Definir variáveis universais
+
 var valorTotal = [0, 0, 0, 0];
 var valorProduto = [0, 500, 150, 86];
 var qtd = [0, 0, 0, 0];
 
-// Trocar o nome pelo inserido no login
 function trocarNome() {
 	var nome = document.getElementById('nome');
 	var usuario = document.getElementById('usuario').value;
 	nome.innerHTML = usuario;
 }
 
-// Aumentar a quantidade de itens de um produto
 function adicionarItem(item) {
 	var quantidade = document.getElementById('quantidade' + item);
 	var total = document.getElementById('total' + item);
@@ -22,7 +20,7 @@ function adicionarItem(item) {
 	valorCompra();
 }
 
-// Diminuir a quantidade de itens de um produto
+
 function removerItem(item) {
 	if (qtd[item] > 0) {
 		qtd[item] -= 1;
@@ -35,7 +33,6 @@ function removerItem(item) {
 	}
 }
 
-// Remover o produto
 function removerProduto(produto) {
 	var pai = document.getElementById('carrinho');
 	var filho = document.getElementById('produto' + produto);
@@ -47,7 +44,7 @@ function removerProduto(produto) {
 	}
 }
 
-// Calcular o valor total da compra
+
 function valorCompra() {
 	var valorTotalCompra = document.getElementById('valorTotalCompra');
 	var valor = 0;;
@@ -58,7 +55,7 @@ function valorCompra() {
 	console.log(valorTotal.length);
 }
 
-// Finalizar a compra e zerar os valores
+
 function finalizarCompra() {
 	var nome = document.getElementById('nome').innerHTML;
 	alert('Obrigada pela compra, ' + nome + '!');
