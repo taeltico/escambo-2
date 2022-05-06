@@ -1,4 +1,4 @@
-# vue-boloand
+# vue-Escambo
 
 ## Project setup
 ```
